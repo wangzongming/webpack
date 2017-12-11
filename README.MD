@@ -1,6 +1,6 @@
 #简单webpack  私人配置
 
-0.0.1：  
+0.01：  
     npm run server  即可开始
 
     打包入口文件 app/main.js --->  自动生产打包后的文件
