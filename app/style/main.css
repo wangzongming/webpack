@@ -1,0 +1,13 @@
+body {
+  background: url('../img/logo.png') no-repeat left top / 50%, black;
+}
+.root {
+  color: #ccc;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 100;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
