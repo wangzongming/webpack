@@ -65,7 +65,7 @@ module.exports = {
         ]
     },
     plugins:[
-        new webpack.BannerPlugin('wxx专用！'),
+        new webpack.BannerPlugin('wxx专用！https://github.com/wangzongming'),
         new HtmlWebpackPlugin({
             template: __dirname + "/public/template.html"
         }),

@@ -7,6 +7,7 @@
     命令行：
 #    npm run server      开始项目，更新代码后浏览器会自动更新页面
 #    npm run build       打包后文件放置 /dist 文件夹下
+#    npm start           开启实时编译   /build 文件夹下
 
     log:
         增加快捷运行和dom选择插件   (0.03)
