@@ -26,6 +26,8 @@ body {
   color: white;
 }
 canvas {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(194, 13, 13, 0.8);
   box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }

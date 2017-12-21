@@ -15,11 +15,11 @@ class Chart {
 
     init(opt) {
         const rem = this.canvasRem;
-        const canvasContainer = opt.ele;
+        const canvasContainer = document.querySelector(opt.ele);
         this.canvas = document.createElement("canvas");
         this.canvas.className = "canvas";
-        this.canvas.width = rem('4.5rem');
-        this.canvas.height = rem('4.5rem');
+        this.canvas.width = rem('6rem');
+        this.canvas.height = rem('6rem');
         canvasContainer.appendChild(this.canvas);
         const ctx = this.canvas.getContext("2d");
         this.ratio = this.getPixelRatio(ctx);//画图片时解决模糊问题
@@ -29,9 +29,9 @@ class Chart {
             sDeg: opt.sDeg || 0, //仪盘表外框线条起点角度  指针的结束点角度    注意是反方向转动的
             eDeg: opt.eDeg || 180, //仪盘表外框线条结束点角度 指针的起始点角度  注意是反方向转动的
             speed: 1,//转动速度 目前只能填写整数
-            targetNum: opt.targetNum || 0,//转动的角度 目标
+            targetNum: opt.targetNum || 0.1,//转动的角度 目标
             canvasBg: opt.canvasBg || "black",//canvas背景 为了实现运动效果不浪费额外性能
-            unitValueBig: 30,//大格子单位
+            unitValueBig: 20,//大格子单位
             unitValueSmart: 10,//小格子单位
             _panelX:  this.canvasWin / 2 || 120,//圆心X
             _panelY:  this.canvasWin / 2 || 130,//圆心Y
