@@ -9,10 +9,15 @@ module.exports = {
         filename: "bundle-[hash].js"
     },
     devServer: {
-        contentBase: "./public",//本地服务器所加载的页面所在的目录
+        contentBase: "./app",//本地服务器所加载的页面所在的目录
         historyApiFallback: true,//不跳转
         inline: true,//实时刷新
         port:8888,
+        host:'192.168.1.111',
+        watchOptions: {
+            aggregateTimeout: 300,
+            poll: 1000
+        },
         hot:true
     },
     module:{
