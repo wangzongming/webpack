@@ -4,10 +4,10 @@
     > webpack配置
     
 *   使用方法：
-    > 1.运行install.bat 
-      2.运行install.bat 
-      3.运行startServer.bat
-      4.运行build.bat 打包
+    <p>  1.运行install.bat </p>
+    <p>  2.运行install.bat </p>
+    <p>  3.运行startServer.bat</p>
+    <p>  4.运行build.bat 打包</p>
 
 *   功能：
     > 内测中
@@ -17,12 +17,11 @@
     <p>不管文件在哪引用路径统一充app下文件路径开始 eg： imgs/XXX.png (*注意：路径前面不要加点)</p>
 
 *   log:
-
-    <p>开启css-model、增加react (0.06)
-    <p>默认关闭css-model、修复代码被提交乱了的问题(0.05)
-    <p>优化dev-server (0.04)
-    <p>增加快捷运行和dom选择插件   (0.03)
-    <p>增加rem插件   (v0.02) 
+    <p>开启css-model、增加react (0.06)</p>
+    <p>默认关闭css-model、修复代码被提交乱了的问题(0.05)</p>
+    <p>优化dev-server (0.04)</p>
+    <p>增加快捷运行和dom选择插件   (0.03)</p>
+    <p>增加rem插件   (v0.02) </p>
 
 *   by: oldWang/wxx/M
     ![logo](./app/imgs/logo.png)
