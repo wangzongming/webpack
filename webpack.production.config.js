@@ -33,7 +33,7 @@ module.exports = {
                     },{
                         loader:"css-loader",
                         options:{
-                            // modules:true
+                            modules:true
                         }
                     },{
                         loader: "postcss-loader"
@@ -48,7 +48,7 @@ module.exports = {
                     },{
                         loader:"css-loader",
                         options:{
-                            // modules:true
+                            modules:true
                         }
                     },
                     {

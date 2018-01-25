@@ -25,7 +25,7 @@ module.exports = {
             {
                 test:/(\.jsx|\.js)$/,
                 use:{
-                    loader:"babel-loader",
+                    loader:"babel-loader", 
                 },
                 exclude:/node_modules/
             },
@@ -37,7 +37,7 @@ module.exports = {
                     },{
                         loader:"css-loader",
                         options:{
-                            // modules:true
+                            modules:true
                         }
                     },{
                         loader: "postcss-loader"
@@ -52,7 +52,7 @@ module.exports = {
                     },{
                         loader:"css-loader",
                         options:{
-                            // modules:true
+                            modules:true
                         }
                     },
                     {
